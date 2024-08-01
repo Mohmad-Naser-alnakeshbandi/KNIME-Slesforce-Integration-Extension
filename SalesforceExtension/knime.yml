@@ -7,4 +7,4 @@ long_description: This extension is developed to extract and load data from Sale
 group_id: org.digitallnature
 version: 0.1.0
 vendor: DIGTALL Nature GmbH, Karlsruhe, Germany
-license_file: LICENSE.TXT
+license_file: ../LICENSE.TXT
