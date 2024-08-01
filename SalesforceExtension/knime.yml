@@ -1,0 +1,10 @@
+name: Salesforce_Extension
+author: Mohamad Naser Alnakshbandi
+env_yml_path: C:/Users/Mohamad-Naser.Alnake/OneDrive - DIGITALL Nature/Desktop/Mohamad/BA/Code/KNIMESAMPLE/basic/my_conda_env.yml
+extension_module: main
+description: Salesforce Extension
+long_description: This extension is developed to extract and load data from Salesforce.
+group_id: org.digitallnature
+version: 0.1.0
+vendor: DIGTALL Nature GmbH, Karlsruhe, Germany
+license_file: LICENSE.TXT

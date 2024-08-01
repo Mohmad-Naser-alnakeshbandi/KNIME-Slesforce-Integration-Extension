@@ -1,0 +1,4 @@
+org.digitallnature.Salesforce_Extension: # {group_id}.{name} from the knime.yml
+  src: C:/Users/Mohamad-Naser.Alnake/OneDrive - DIGITALL Nature/Desktop/Mohamad/BA/Code/KNIMESAMPLE/basic/SalesforceExtension # Path to folder containing the extension files
+  conda_env_path: C:/Users/Mohamad-Naser.Alnake/Miniconda3/envs/my_python_env # Path to the Python environment to use
+  debug_mode: true # Optional line, if set to true, it will always use the latest changes of execute/configure, when that method is used within the KNIME Analytics Platform
