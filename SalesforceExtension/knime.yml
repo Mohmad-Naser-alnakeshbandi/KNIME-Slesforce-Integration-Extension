@@ -1,9 +1,9 @@
-name: Salesforce
+name: salesforce
 author: Mohamad Naser Alnakshbandi
-env_yml_path: my_conda_env.yml
+env_yml_path: conda_env.yml
 extension_module: main
 description: Salesforce Extension
-long_description: This extension is developed to extract and load data from Salesforce.
+long_description: The Salesforce Extension for KNIME provides a comprehensive set of nodes to facilitate seamless integration with Salesforce. These nodes allow users to perform data operations such as fetching, inserting, updating, and deleting records, as well as retrieving metadata information from Salesforce objects (sObjects). 
 group_id: org.digitallnature
 version: 0.1.0
 vendor: DIGTALL Nature GmbH, Karlsruhe, Germany
