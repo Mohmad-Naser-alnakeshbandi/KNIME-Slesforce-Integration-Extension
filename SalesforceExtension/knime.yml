@@ -1,4 +1,4 @@
-name: Salesforce_Extension
+name: Salesforce
 author: Mohamad Naser Alnakshbandi
 env_yml_path: my_conda_env.yml
 extension_module: main
