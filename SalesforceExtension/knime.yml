@@ -1,6 +1,6 @@
 name: Salesforce_Extension
 author: Mohamad Naser Alnakshbandi
-env_yml_path: C:/Users/Mohamad-Naser.Alnake/OneDrive - DIGITALL Nature/Desktop/Mohamad/BA/Code/KNIMESAMPLE/basic/my_conda_env.yml
+env_yml_path: my_conda_env.yml
 extension_module: main
 description: Salesforce Extension
 long_description: This extension is developed to extract and load data from Salesforce.
