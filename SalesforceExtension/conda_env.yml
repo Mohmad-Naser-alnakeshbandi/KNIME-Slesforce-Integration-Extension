@@ -6,3 +6,4 @@ dependencies:
   - python=3.11
   - knime-extension
   - knime-python-base
+  - simple_salesforce
