@@ -23,7 +23,11 @@ __category = knext.category(
 
 @knext.output_table(name="Output Data", description="Extract data for the specified sObject")
 class SalesforceDataExtracterNode:
-    """Fetches data for the specified sObject."""
+    """Salesforce Data Extracter Node
+    
+    The Salesforce Data Extracter Node connects to Salesforce using provided credentials, retrieves data from a specified Salesforce object, and outputs the data as a JSON string within a KNIME table.
+    This node allows users to either fetch data using a specified Salesforce object name or a custom SOQL query, ensuring flexibility and comprehensive data extraction for analysis and integration purposes within KNIME workflows.    
+    """
 
     user_name = knext.StringParameter("User Name", "Salesforce User Name", "")
     password = knext.StringParameter("Password", "Salesforce Password", "")

@@ -24,7 +24,11 @@ __category = knext.category(
 
 @knext.output_table(name="Output Data", description="Metadata retrieved from Salesforce")
 class SalesforceMetadataReaderNode:
-    """Connects to Salesforce using provided credentials and domain and reads metadata."""
+    """Salesforce Metadata Reader Node
+    
+    The Salesforce Metadata Reader Node connects to Salesforce using provided credentials and domain, retrieves comprehensive metadata, and outputs it as a JSON string within a KNIME table. 
+    This node facilitates the extraction of metadata for all Salesforce objects, providing valuable information for data integration and analysis, making it essential for users needing detailed insights into their Salesforce schema.
+    """
 
     user_name = knext.StringParameter("User Name", "Salesforce User Name", "")
     password = knext.StringParameter("Password", "Salesforce Password", "")

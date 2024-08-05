@@ -23,7 +23,13 @@ __category = knext.category(
 @knext.output_table(name="Success Records", description="Records successfully processed.")
 @knext.output_table(name="Failed Records", description="Records that failed to process.")
 class SalesforceDataLoaderNode:
-    """Loads data into Salesforce: insert, update, or delete based on the specified operation."""
+    """alesforce Data Loader Node
+    
+    The Salesforce Data Loader Node facilitates the seamless integration of data between KNIME and Salesforce.
+    This node supports operations such as insert, update, and delete on Salesforce objects, making it essential for managing CRM data.
+    Users need to provide Salesforce credentials, specify the Salesforce object, and define the desired operation.
+    The node requires an 'Id' column in the input data for update and delete operations to function correctly.
+    """
 
     user_name = knext.StringParameter("User Name", "Salesforce User Name", "")
     password = knext.StringParameter("Password", "Salesforce Password", "")
