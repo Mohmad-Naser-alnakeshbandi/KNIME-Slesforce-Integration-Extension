@@ -5,10 +5,10 @@ platforms:
 - name: osx-arm64
 - name: win-64
 environments:
-  build:
-    channels:
-    - url: https://conda.anaconda.org/knime/label/nightly/
-    - url: https://conda.anaconda.org/knime/
+build:
+  channels:
+  - url: https://conda.anaconda.org/knime/label/nightly/
+  - url: https://conda.anaconda.org/knime/
     - url: https://conda.anaconda.org/conda-forge/
     packages:
       linux-64:
